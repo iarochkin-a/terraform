@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive
+*.tfvars
+*.auto.tfvars
+
+# Overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Locks
+.terraform.lock.hcl
+
+# MacOS
+.DS_Store
